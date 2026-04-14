@@ -11,7 +11,7 @@
   "preview": "",
   "difficulty": "INTERMEDIATE",
   "duration": null,
-  "projectType": "tutorial",
+  "projectType": "exercise",
   "grading": "isolated",
   "localhostOnly": false,
   "gitpod": true,
