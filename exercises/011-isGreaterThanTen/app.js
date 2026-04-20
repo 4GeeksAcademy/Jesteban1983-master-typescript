@@ -1,4 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function isGreaterThanTen(num) {
-  // your code here
-  return false;
+    if (num > 10) {
+        return true;
+    }
+    return false;
 }
+let output = isGreaterThanTen(11);
+console.log(output);

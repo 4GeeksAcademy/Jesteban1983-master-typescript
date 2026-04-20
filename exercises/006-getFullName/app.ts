@@ -1,6 +1,7 @@
 function getFullName(firstName: string, lastName: string): string {
-  // your code here
-  return '';
+  
+  return `${firstName} ${lastName}`;
 }
-
+let output= getFullName('Joe', 'Smith');
+console.log(output);
 export {};
