@@ -1,4 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function joinArrays(arr1, arr2) {
-  // your code here
-  return '';
+    let result = arr1.concat(arr2);
+    return result;
 }
+let output = joinArrays([1, 2], [3, 4]);
+console.log(output);
