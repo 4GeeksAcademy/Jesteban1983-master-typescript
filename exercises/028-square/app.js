@@ -1,4 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function square(n) {
-  // your code here
-  return 0;
+    return n ** 2;
 }
+let output = square(5);
+console.log(output);

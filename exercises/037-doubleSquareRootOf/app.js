@@ -1,4 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function doubleSquareRootOf(num) {
-  // your code here
-  return 0;
+    let result = 2 * Math.sqrt(num);
+    return result;
 }
+let output = doubleSquareRootOf(121);
+console.log(output);

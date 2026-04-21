@@ -1,4 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function computeSquareRoot(num) {
-  // your code here
-  return 0;
+    let result = Math.sqrt(num);
+    return result;
 }
+let output = computeSquareRoot(9);
+console.log(output);

@@ -1,4 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function cube(n) {
-  // your code here
-  return 0;
+    return n ** 3;
 }
+let output = cube(3);
+console.log(output);

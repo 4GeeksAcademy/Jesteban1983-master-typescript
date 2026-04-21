@@ -1,6 +1,7 @@
 function computePerimeterOfARectangle(length: number, width: number): number {
-  // your code here
-  return 0;
+  let perimetro = (length + width) * 2; 
+  return perimetro;
 }
-
+let output = computePerimeterOfARectangle(5,2)
+console.log(output);
 export {};

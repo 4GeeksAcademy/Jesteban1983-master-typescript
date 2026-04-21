@@ -1,6 +1,8 @@
 function doubleSquareRootOf(num: number): number {
-  // your code here
-  return 0;
+  let result= 2 * Math.sqrt(num);
+  return result;
 }
+  let output=doubleSquareRootOf(121);
+  console.log(output);
 
 export {};
