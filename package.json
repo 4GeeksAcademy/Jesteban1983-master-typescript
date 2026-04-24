@@ -8,5 +8,10 @@
   },
   "devDependencies": {
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@learnpack/learnpack": "^5.0.347",
+    "ora": "5.4.1",
+    "syllable": "4.1.0"
   }
 }
