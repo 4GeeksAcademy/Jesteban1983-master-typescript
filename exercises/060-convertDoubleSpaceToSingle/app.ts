@@ -1,7 +1,5 @@
 function convertDoubleSpaceToSingle(str: string): string {
-  let a = str.split('  ');
-  let espacio = a.join(' ');
-  return espacio;
+ return str.trim();
 }
 let output=convertDoubleSpaceToSingle("string  with  double  spaces");
 console.log(output);
