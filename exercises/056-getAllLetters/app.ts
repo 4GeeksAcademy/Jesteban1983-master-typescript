@@ -1,6 +1,12 @@
-function getAllLetters(str: string): string {
+function getAllLetters(str: string) {
   // your code here
-  return '';
-}
+
+     let letra: string[]=[...str]; 
+      return letra;
+  }
+
+let output=getAllLetters('Radagast');
+console.log(output); 
+
 
 export {};

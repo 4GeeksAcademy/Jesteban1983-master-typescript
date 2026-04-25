@@ -1,6 +1,9 @@
 function getAllWords(str: string): string {
-  // your code here
-  return '';
-}
+  let letra: string = str;
+  let palabra: string[] = letra.split(' ');
 
+  return palabra;
+}
+let output= getAllWords('Radagast the Brown');
+console.log(output);
 export {};
