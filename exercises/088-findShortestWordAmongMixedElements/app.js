@@ -3,8 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function findShortestWordAmongMixedElements(arr) {
     // your code here
     const strings = arr.filter(el => typeof el === 'string');
+    if (strings.length === 0)
+        return '';
     if (arr.length === 0) {
-        return "";
+        return '';
     }
     let shortes = strings[0];
     for (let i = 1; i < strings.length; i++) {
