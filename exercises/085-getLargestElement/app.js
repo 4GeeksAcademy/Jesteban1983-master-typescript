@@ -1,6 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function getLargestElement(arr, arg2) {
+function getLargestElement(arr) {
     // your code here
-    return 0;
+    if (arr.length === 0)
+        return 0;
+    return Math.max(...arr);
 }
+let output = getLargestElement([5, 2, 8, 3]);
+console.log(output);

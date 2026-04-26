@@ -2,5 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 function findSmallestElement(arr, arg2) {
     // your code here
-    return 0;
+    if (arr.length === 0)
+        return 0;
+    return Math.min(...arr);
 }
+let output = findSmallestElement([4, 1, 9, 10]);
+console.log(output);
