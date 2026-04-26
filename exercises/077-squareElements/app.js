@@ -1,6 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function squareElements(arr, arg2, arg3) {
+function squareElements(arr) {
     // your code here
-    return [];
+    let numCuad = arr.map(n => n ** 2);
+    return numCuad;
 }
+let output = squareElements([1, 2, 3]);
+console.log(output);
