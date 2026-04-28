@@ -1,22 +1,23 @@
-function convertScoreToGrade(score) {
+function convertScoreToGrade(score: number) {
   // your code here
-  //let grado =
+  let grado:string = ''
+
   if (score <= 100 && score >= 90) {
-    console.log('A');
+     grado='A';
   } else if(score <= 89 && score >=80){
-     console.log('B');
+     grado='B';
   } else if(score <= 79 && score >=70){
-    console.log('C');
+     grado='C';
   } else if(score <= 69 && score >= 60){
-    console.log ('D');
+     grado='D';
   } else if (score <= 59 && score > 0){
-    console.log('F');
+     grado='F';
   }
   else {
-    console.log('INVALID SCORE')
+     grado='INVALID SCORE';
   }
-  //return '';
+     return grado;
 }
-let output= CSSViewTransitionRule(91);
+let output= convertScoreToGrade(91);
 console.log(output);
 export {};
