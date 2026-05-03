@@ -7,11 +7,7 @@
     "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "typescript": "^5.9.2"
-=======
     "typescript": "^5.9.3"
->>>>>>> 24b38f03 (Avance)
   },
   "dependencies": {
     "@learnpack/learnpack": "^5.0.347",
