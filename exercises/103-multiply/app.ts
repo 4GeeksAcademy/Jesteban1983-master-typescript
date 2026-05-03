@@ -1,6 +1,8 @@
 function multiply(num1: number, num2: number): number {
-  // your code here
-  return 0;
+  
+  let total =  Math.imul(num1,num2);
+  return total;
 }
-
+let output = multiply(1,7);
+console.log(output);
 export {};

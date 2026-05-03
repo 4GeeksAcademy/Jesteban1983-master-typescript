@@ -1,6 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 function isOddWithoutModulo(num) {
-    // your code here
-    return false;
+    if (num % 2 == 0) {
+        return false;
+    }
+    return true;
 }
+let output = isOddWithoutModulo(17);
+console.log(output);
